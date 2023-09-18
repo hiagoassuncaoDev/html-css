@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+    <style>
+        @font-face {
+            font-family: 'Prism' ;
+            src: url('fonts/Prism-Regular.otf') format(opentype);
+            font-weight: normal;
+            font-style: normal;
+
+            /*
+                Tipos de format()
+                - opentype (otf)
+                - truetype (ttf)
+                - embedded-opentype
+                - truetype-aat (Apple advanced typography)
+                - SVG
+            */
+        }
+        body{
+            font-family: Helvetica, sans-serif;
+        }
+        h1{
+            font-family: 'Prism', Times, serif;
+            font-size: 5em;
+            font-weight: normal;
+            color: rgb(213, 168, 42);
+        }
+    </style>
+</head>
+<body>
+    <h1>Prism</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam dolore libero ut blanditiis tenetur eveniet voluptates commodi fugit. Facilis, reiciendis error illo quas cum totam nam voluptatibus fuga adipisci omnis.</p>
+</body>
+</html>
